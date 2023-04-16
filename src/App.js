@@ -1,11 +1,12 @@
 import './App.css';
+import Header from './component/Header';
+import Hero from './component/Hero';
 
 function App() {
   return (
     <>
-
-    <h1 className='text-2xl'>App</h1>
-      
+      <Header/>
+      <Hero/>
     </>
   );
 }
