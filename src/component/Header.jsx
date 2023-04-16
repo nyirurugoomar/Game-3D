@@ -43,19 +43,19 @@ useEffect(()=>{
       <div>
         <ul className='hidden md:flex mr-8 '>
                {/* <NavLink  to='/' > */}
-                <li className='ml-10  text-[16px] tracking-wider hover:border-b-2 border-orange  text-white p-4 font-[400] Poppins '>Home</li>
+                <li className='ml-10  text-[16px] tracking-wider hover:border-b-[1px] border-orange  text-white p-4 font-[400] font-Poppins '>Home</li>
                 {/* </NavLink> */}
             {/* <NavLink to="/aboutus" > */}
-                <li className='ml-10  text-[16px] tracking-wider hover:border-b-2  border-orange text-white p-4 font-[400]'>About us</li>
+                <li className='ml-10  text-[16px] tracking-wider hover:border-b-[1px]  border-orange text-white p-4 font-[400]'>About us</li>
             {/* </NavLink> */}
             {/* <NavLink to="/services" > */}
-                <li className='ml-10  text-[16px] tracking-wider hover:border-b-2 border-orange text-white p-4 font-[400]'>Portfolio</li>
+                <li className='ml-10  text-[16px] tracking-wider hover:border-b-[1px] border-orange text-white p-4 font-[400]'>Portfolio</li>
                 {/* </NavLink> */}
                 {/* <NavLink to="/productpage" > */}
-                <li className='ml-10  text-[16px] tracking-wider hover:border-b-2 border-orange text-white p-4 font-[400]'>News</li>
+                <li className='ml-10  text-[16px] tracking-wider hover:border-b-[1px] border-orange text-white p-4 font-[400]'>News</li>
                 {/* </NavLink> */}
                 {/* <NavLink to="/productpage" > */}
-                <li className='ml-10  text-[13px] tracking-wider  border-white text-white p-4 font-[400] bg-orange rounded-[6px] w-[156px] text-center '>Contact us</li>
+                <li className='ml-10  text-[13px] tracking-wider  border-white text-white p-4 font-[400] bg-orange rounded-[6px] w-[156px] text-center cursor-pointer '>Contact us</li>
                 {/* </NavLink> */}
                 
         </ul>
