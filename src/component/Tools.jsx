@@ -9,10 +9,10 @@ import arrow from '../assets/arrow1.svg'
 function Tools() {
   return (
     <>
-    <div className='w-full h-screen mt-20'>
+    <div className='w-full h-screen mt-20 bg-tool-background bg-cover'>
         <div className='frid md:grid max-w[1340px] m-auto mx-10'>
-         <div className='text-center mx-20'>
-             <h1 className='text-white font-Poppins text-[30px] font-bold tracking-widest'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+         <div className='text-center mx-20 mt-10'>
+             <h1 className='text-white  text-[30px] font-bold '>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
              <p className='text-white mx-20  mt-4 text-[16]  font-thin'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
          </div>
          <div className='grid grid-cols-4 lg:grid-cols-4 gap-8 mt-12'>
