@@ -2,7 +2,7 @@ import React from 'react'
 
 function NewsLetter() {
   return (
-    <div className='h-full w-full md:mt-60'>
+    <div className='h-full w-full md:mt-10 md:mb-20'>
        <div className='grid lg:grid-cols-1 md:mx-20'>
 
         <div className='text-white'>
@@ -18,7 +18,7 @@ function NewsLetter() {
             </div>
             <div className=' flex h-10 bg-white rounded-[8px]'>
                 <input 
-                className='bg-white text-black w-[420px] p-4 rounded-l-[8px]' 
+                className='bg-white text-black w-[420px] p-4 rounded-l-[8px] focus:outline-none' 
                 type="email"
                 placeholder='Enter email address' />
                 <button className='bg-orange text-white p-2 text-[12px] my-1 rounded-md mx-2 px-4 cursor-pointer'>Continue</button>
