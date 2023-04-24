@@ -5,11 +5,12 @@ import p3 from '../assets/p3.png'
 import p4 from '../assets/p4.png'
 import p5 from '../assets/p5.png'
 import p6 from '../assets/p6.png'
+import '../App.css';
 
 function Projects() {
   return (
     <>
-    <div className='w-full h-screen mt-20 mb-20  '>
+    <div className='w-full h-screen mt-20 mb-10  '>
         
         <div>
             <div className='text-center'>
@@ -44,11 +45,11 @@ function Projects() {
         </div>
           
         </div>
-           <div className=' mt-20 absolute justify-center'>
-            <button className='bg-black-white w-[139px] text-white font-Poppins rounded-[10px] cursor-pointer md:block '>SEE ALL</button>
-            </div>
-
     </div>
+         <div className='text-center'>
+              <button className='bg-black-white h-10 w-[139px] text-white font-Poppins rounded-[10px] cursor-pointer '>SEE ALL</button>
+          </div>
+    
     </>
   )
 }
