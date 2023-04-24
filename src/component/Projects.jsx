@@ -10,7 +10,7 @@ import '../App.css';
 function Projects() {
   return (
     <>
-    <div className='w-full h-screen mt-20 mb-10  '>
+    <div className='w-full h-full mt-20  '>
         
         <div>
             <div className='text-center'>
@@ -42,13 +42,18 @@ function Projects() {
                     <img src={p6} className="hover:scale-110 ease-in duration-300 w-full h-[223px]" alt="" />  
                             
                 </div>
+                
+
         </div>
+        
           
         </div>
-    </div>
-         <div className='text-center'>
+        <div className='text-center'>
               <button className='bg-black-white h-10 w-[139px] text-white font-Poppins rounded-[10px] cursor-pointer '>SEE ALL</button>
           </div>
+        
+    </div>
+         
     
     </>
   )
