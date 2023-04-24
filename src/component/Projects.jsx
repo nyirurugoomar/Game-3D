@@ -9,35 +9,35 @@ import p6 from '../assets/p6.png'
 function Projects() {
   return (
     <>
-    <div className='w-full h-screen mt-20 mb-20 '>
+    <div className='w-full h-screen mt-20 mb-20  '>
         
         <div>
             <div className='text-center'>
                 <h1 className='text-white text-center text-[30px]'>Our Recent Projects</h1>
                 <p className='text-white text-[14] font-[100]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
             </div>
-            <div className='md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 md:mx-20'>
-                <div>      
+            <div className='md:grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-12 md:mx-20 my-20'>
+                <div className='my-8 mx-4'>      
                     <img src={p1} className="hover:scale-110 ease-in duration-300 w-full h-[223px]"  alt="" />  
                            
                 </div>
-                <div>      
+                <div className='my-8 mx-4'>      
                     <img src={p2} className="hover:scale-110 ease-in duration-300 w-full h-[223px]"  alt="" />  
                            
                 </div>
-                <div>      
+                <div className='my-8 mx-4'>      
                     <img src={p3} className="hover:scale-110 ease-in duration-300 w-full h-[223px]"  alt="" />  
                             
                 </div>
-                <div>      
+                <div className='my-8 mx-4'>      
                     <img src={p4} className="hover:scale-110 ease-in duration-300 w-full h-[223px]" alt="" />  
                           
                 </div>
-                <div>      
+                <div className='my-8 mx-4'>      
                     <img src={p5} className="hover:scale-110 ease-in duration-300 w-full h-[223px]" alt="" />  
                            
                 </div>
-                <div>      
+                <div className='my-8 mx-4'>      
                     <img src={p6} className="hover:scale-110 ease-in duration-300 w-full h-[223px]" alt="" />  
                             
                 </div>

@@ -9,7 +9,7 @@ import arrow from '../assets/arrow1.svg'
 function Tools() {
   return (
     <>
-    <div className='w-full h-screen mt-20 mb-20  md:bg-tool-background  bg-cover  '>
+    <div className='w-full h-full md:bg-tool-background  bg-cover mt-20  '>
         <div className='md:grid max-w[1340px] m-auto md:mx-10 '>
          <div className='text-center md:mx-20 md:mt-20'>
              <h1 className='text-white  md:text-[30px] font-bold  ' width='30rem'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>

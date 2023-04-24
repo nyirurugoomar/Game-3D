@@ -6,15 +6,20 @@ import Projects from './component/Projects';
 import Tools from './component/Tools';
 import VideoCapture from './component/VideoCapture';
 
+
 function App() {
   return (
     <>
+    <div class='App'>
       <Header/>
       <Hero/>
       <CurrentGame/>
       <VideoCapture/>
       <Tools/>
       <Projects/>
+    
+    </div>
+      
     </>
   );
 }
