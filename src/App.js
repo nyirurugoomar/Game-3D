@@ -1,5 +1,6 @@
 import './App.css';
 import CurrentGame from './component/CurrentGame';
+import Footer from './component/Footer';
 import Header from './component/Header';
 import Hero from './component/Hero';
 import NewsLetter from './component/NewsLetter';
@@ -19,6 +20,7 @@ function App() {
       <Tools/>
       <Projects/>
       <NewsLetter/>
+      <Footer/>
     
     </div>
       
