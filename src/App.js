@@ -5,6 +5,7 @@ import Header from './component/Header';
 import Hero from './component/Hero';
 import NewsLetter from './component/NewsLetter';
 import Projects from './component/Projects';
+
 import Tools from './component/Tools';
 import VideoCapture from './component/VideoCapture';
 
@@ -21,6 +22,7 @@ function App() {
       <Projects/>
       <NewsLetter/>
       <Footer/>
+      
     
     </div>
       

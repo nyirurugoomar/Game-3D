@@ -3,9 +3,11 @@ import facebook from '../assets/facebook.svg'
 import instgram from '../assets/instgram.svg'
 import FaLinkedinIn from '../assets/linkedIn.svg'
 import twitter from '../assets/twtter.svg'
+import SubFooter from './SubFooter'
 
 function Footer() {
   return (
+    <>
     <div className='h-full w-full'>
         <div className='md:grid md:grid-cols-2 lg:grid-cols-4 text-white sm:mx-10 justify-between'>
             <div className='md:mx-4'>
@@ -35,6 +37,8 @@ function Footer() {
         </div>
 
     </div>
+    <SubFooter/>
+    </>
   )
 }
 
