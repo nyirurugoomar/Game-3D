@@ -2,7 +2,7 @@ import React,{useState, useEffect} from 'react'
 import {AiOutlineClose,AiOutlineMenu} from 'react-icons/ai'
 import {FaFacebook, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
 
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // import logo from '../assets/logo.png'
 
 function Header() {
@@ -42,18 +42,18 @@ useEffect(()=>{
      
       <div>
         <ul className='hidden md:flex mr-8 '>
-               {/* <NavLink  to='/' > */}
+               <NavLink  to='/' >
                 <li className='ml-10  text-[16px] tracking-wider hover:border-b-[1px] border-orange  text-white p-4 font-[400] font-Poppins '>Home</li>
-                {/* </NavLink> */}
-            {/* <NavLink to="/aboutus" > */}
+                </NavLink>
+            <NavLink to="/aboutus" >
                 <li className='ml-10  text-[16px] tracking-wider hover:border-b-[1px]  border-orange text-white p-4 font-[400]'>About us</li>
-            {/* </NavLink> */}
-            {/* <NavLink to="/services" > */}
-                <li className='ml-10  text-[16px] tracking-wider hover:border-b-[1px] border-orange text-white p-4 font-[400]'>Portfolio</li>
-                {/* </NavLink> */}
-                {/* <NavLink to="/productpage" > */}
+            </NavLink>
+            <NavLink to="/services" >
+                <li className='ml-10  text-[16px] tracking-wider hover:border-b-[1px] border-orange text-white p-4 font-[400]'>Services</li>
+                </NavLink>
+                <NavLink to="/news" >
                 <li className='ml-10  text-[16px] tracking-wider hover:border-b-[1px] border-orange text-white p-4 font-[400]'>News</li>
-                {/* </NavLink> */}
+                </NavLink>
                 {/* <NavLink to="/productpage" > */}
                 <li className='ml-10  text-[13px] tracking-wider  border-white text-white p-4 font-[400] bg-orange rounded-[6px] w-[156px] text-center cursor-pointer '>Contact us</li>
                 {/* </NavLink> */}
