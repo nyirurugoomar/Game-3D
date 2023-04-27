@@ -14,7 +14,7 @@ function About() {
        <div className='h-full w-full sm:py-24 '>
          <div className='grid md:grid-cols-2  m-auto mx-10  '>
             <div className='flex flex-col justify-center md:items-start'>
-                <h1 className='text-white font-[400] text-[14px] tracking-[31] font-Poppins mb-10'>Home  <span className='text-orange'>About us</span> </h1>
+                <h1 className='text-white font-[400] text-[14px] tracking-[31] font-Poppins mb-10'>Home  {'>'}<span className='text-orange'>About us</span> </h1>
                 <h1 className=' text-[30px] text-start text-white font-[700] tracking-wide w-[459px] font-Poppins '>Lorem Ipsum is simply dummy text of the printing and.</h1>
                 <p className='text-[12px]  text-white text-start  w-[442px] font-Poppins'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                 </p>      
