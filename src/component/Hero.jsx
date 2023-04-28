@@ -5,7 +5,7 @@ function Hero() {
   return (
     <>
       <div className='h-full w-full sm:py-2'>
-        <div className='grid md:grid-cols-2 max-w-[1340px] m-auto mx-10 '>
+        <div className='grid md:grid-cols-2 max-w-[1340px] m-auto mx-20 '>
             <div className='flex flex-col justify-center md:items-start pt-40  '>
                 <h1 className='text-orange font-[700] text-[20px] tracking-[31] font-Poppins'>3D game Dev </h1>
                 <h1 className=' text-[60px] text-start text-white font-[700] tracking-wide w-[479px] font-Poppins '>Work that we produce for our clients</h1>

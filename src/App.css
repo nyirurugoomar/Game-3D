@@ -7,9 +7,12 @@ body{
 .App{
   width: 80rem;
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 667px) {
   .App {
-    width:35rem;
+    width:45rem;
+    
     
   }
+  
 }
